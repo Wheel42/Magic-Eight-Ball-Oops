@@ -1,32 +1,19 @@
-// Functionize Minecraft Fishing Start Code
 
-//HTML variables
-// let resultImg = document.getElementById("result-img");
-// let numCodSpan = document.getElementById("num-cod");
-// let numSalmonSpan = document.getElementById("num-salmon");
-// let numTropicalSpan = document.getElementById("num-tropical");
-// let numPufferSpan = document.getElementById("num-puffer");
 
-//Fish Count Variables
-// let numCod = 0;
-// let numSalmon = 0;
-// let numTropical = 0;
-// let numPuffer = 0;
-
-// Fish Button Event Listener
+// Button Event Listener
 document.getElementById("fish-btn").addEventListener("click", fishBtnClicked);
 
 function fishBtnClicked() {
-  //Determine Selected Character
+  //Determine Input
   let character = document.getElementById("character-select").value;
   console.log(character);
 
   if (character === "Does a magic 8 ball actually work?") {
-    //steve fish simluator
+    //Is the question preset 1?
     console.log("Does a magic 8 ball actually work?");
     document.getElementById("output").innerHTML = "How dare you doubt me!";
   } else if (character === "Is JavaScript awesome?") {
-    //Alex fish simluator
+    //Is the question preset 2
     console.log("Isjavaawesome");
     document.getElementById("output").innerHTML = "Of Course!";
   } else if (character === "") {
