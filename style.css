@@ -1,0 +1,49 @@
+html {
+  background: black;
+  background-size: cover;
+}
+
+body {
+  background: purple;
+  width: 600px;
+  padding: 25px 100px;
+  margin: 25px auto;
+  text-align: center;
+  border-radius: 25px;
+}
+
+h1,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select {
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.character-img {
+  margin: 0 5px;
+}
+
+#fish-btn {
+  background-color: darkmagenta;
+  color: black;
+  padding: 2px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#fish-btn:hover {
+  color: darkmagenta;
+  background-color: darkorchid;
+}
+
+p {
+  font-size: 20px;
+}
+
+hr {
+  color: black;
+}
