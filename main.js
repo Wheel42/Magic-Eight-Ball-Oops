@@ -1,5 +1,3 @@
-
-
 // Button Event Listener
 document.getElementById("fish-btn").addEventListener("click", fishBtnClicked);
 
@@ -20,7 +18,7 @@ function fishBtnClicked() {
     console.log("null");
     document.getElementById("output").innerHTML = "Please ask a question...";
   } else {
-    //You have discovered a new, mysterious element, Skyalnder. Perhaps I can tell you more about it... in time.
+    //You have discovered a new, mysterious element, Skylander. Perhaps I can tell you more about it... in time.
     let randNum = Math.random();
     console.log(randNum);
     if (randNum < 0.2) {
