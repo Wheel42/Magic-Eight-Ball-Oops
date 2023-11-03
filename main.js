@@ -1,20 +1,20 @@
 // Button Event Listener
-document.getElementById("fish-btn").addEventListener("click", fishBtnClicked);
+document.getElementById("fish-btn").addEventListener("click", btnClicked);
 
-function fishBtnClicked() {
+function btnClicked() {
   //Determine Input
-  let character = document.getElementById("character-select").value;
-  console.log(character);
+  let input = document.getElementById("character-select").value;
+  console.log(input);
 
-  if (character === "Does a magic 8 ball actually work?") {
+  if (input === "Does a magic 8 ball actually work?") {
     //Is the question preset 1?
     console.log("Does a magic 8 ball actually work?");
     document.getElementById("output").innerHTML = "How dare you doubt me!";
-  } else if (character === "Is JavaScript awesome?") {
+  } else if (input === "Is JavaScript awesome?") {
     //Is the question preset 2
     console.log("Isjavaawesome");
     document.getElementById("output").innerHTML = "Of Course!";
-  } else if (character === "") {
+  } else if (input === "") {
     console.log("null");
     document.getElementById("output").innerHTML = "Please ask a question...";
   } else {
