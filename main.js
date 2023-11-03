@@ -1,5 +1,5 @@
 // Button Event Listener
-document.getElementById("fish-btn").addEventListener("click", btnClicked);
+document.getElementById("btn").addEventListener("click", btnClicked);
 
 function btnClicked() {
   //Determine Input
